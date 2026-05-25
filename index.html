@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A small interactive cube. Companion to a Blender hero render coming soon.">
+  <link rel="icon" href="data:,">
+  <title>j-rock-321-812 — spark</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #0a0a0a;
+      color: #d8c9a8;
+      font-family: ui-serif, Georgia, serif;
+    }
+    canvas { display: block; }
+    .mark {
+      position: fixed;
+      bottom: 16px;
+      left: 20px;
+      font-size: 12px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      font-style: italic;
+      color: #c9a961;
+      mix-blend-mode: screen;
+      opacity: 0.55;
+      pointer-events: none;
+      user-select: none;
+    }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="mark">spark</div>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
